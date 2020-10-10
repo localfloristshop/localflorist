@@ -1,11 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.git",
+    "\\Local settings (.vs)",
+    "\\Local settings (.vs)\\localflorist",
     "\\src",
     "\\src\\layouts",
     "\\src\\pages",
     "\\src\\style"
   ],
-  "SelectedNode": "\\gatsby-config.js",
+  "SelectedNode": "\\src\\layouts\\index.js",
   "PreviewInSolutionExplorer": false
 }

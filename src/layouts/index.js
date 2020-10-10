@@ -13,8 +13,7 @@ const Layout = ({ children, site }) => (
         <div className="Wrap" >
           <div className="Header__body">
             <h1 className="Header__title">
-              <Link data-text={site.siteMetadata.siteName} to="https://localflorist.shop">
-                {site.siteMetadata.siteName}
+              <Link data-text={site.siteMetadata.siteName} to="localflorist.shop">
               </Link>
             </h1>
             <div className="Header__summary snipcart-summary snipcart-checkout">
