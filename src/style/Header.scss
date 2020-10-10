@@ -13,14 +13,14 @@
 .Header__title {
   flex: 1;
   padding: 20px 0;
-  font-family: "times new roman", times, serif;
-  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
 
   a {
     font-size: 6em;
     font-weight: bold;
     position: relative;
-    color: white;
+    color: #d3d3d3;
     text-decoration: none;
     display: block;
     padding: 2px;
@@ -29,7 +29,7 @@
       content: attr(data-text);
       position: absolute;
       top: 0;
-      color: white;
+      color: #444;
       background: #808080;
       overflow: hidden;
       clip: rect(0,900px,0,0);
