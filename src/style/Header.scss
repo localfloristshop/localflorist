@@ -1,9 +1,8 @@
 .Header {
-  background: #663399;
-  color: white;
+  background: #d3d3d3;
+  color: #444;
   border-bottom: 3px solid white;
-  box-shadow: 0 16px 0 black;
-  transform: rotateZ(8deg) skew(-2deg, -10deg) translateY(-10%);
+  box-shadow: 0 16px 0 #444;
   margin: 50px;
 }
 
@@ -69,22 +68,3 @@
   font-size: 0.8em;
 }
 
-@keyframes noise-anim {
-  $steps: 20;
-
-  @for $i from 0 through $steps {
-    #{percentage($i * (1 / $steps))} {
-      clip:rect(random(100) + px, 9999px, random(100) + px, 0);
-    }
-  }
-}
-
-@keyframes noise-anim-2 {
-  $steps: 20;
-
-  @for $i from 0 through $steps{
-    #{percentage($i * (1/$steps))}{
-      clip:rect(random(100) + px, 9999px, random(100) + px, 0);
-    }
-  }
-}
